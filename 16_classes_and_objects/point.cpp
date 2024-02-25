@@ -8,10 +8,10 @@ Point::Point()
 
 Point::Point(const Point &p)
 {
-    std::cout << "Copy of a point." << std::endl;
+    std::cout << "Copying a point." << std::endl;
 }
 
 Point::~Point()
 {
-    std::cout << "Destroying the object." << std::endl;
+    std::cout << "Destroying a point." << std::endl;
 }
